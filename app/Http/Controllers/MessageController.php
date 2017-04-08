@@ -9,7 +9,7 @@ class MessageController extends Controller
 {
     public function allMessages(){
 
-        $messages = Message::all();
+        $messages = Message::with("user")->get();
         return $messages;
     }
 }

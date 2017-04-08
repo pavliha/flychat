@@ -29,11 +29,15 @@ class MsgListContainer extends React.Component {
         if(items === "success"){
             return false
         }
+
         return <div className="panel">
             <table className="table">
                 <tbody>
                 {items.map((item) => {
+                    console.log(item)
+
                     return <tr key={item.id}>
+                        <td>{item.user.name}</td>
                         <td>{item.message}</td>
                     </tr>
                 })}

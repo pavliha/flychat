@@ -2912,6 +2912,7 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
             if (items === "success") {
                 return false;
             }
+
             return _react2.default.createElement(
                 "div",
                 { className: "panel" },
@@ -2922,9 +2923,16 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
                         "tbody",
                         null,
                         items.map(function (item) {
+                            console.log(item);
+
                             return _react2.default.createElement(
                                 "tr",
                                 { key: item.id },
+                                _react2.default.createElement(
+                                    "td",
+                                    null,
+                                    item.user.name
+                                ),
                                 _react2.default.createElement(
                                     "td",
                                     null,
