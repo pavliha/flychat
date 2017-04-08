@@ -15,6 +15,10 @@ class MsgListContainer extends React.Component {
 
     componentWillMount() {
 
+        window.Echo.channel("msg").listen("MessageSend",e=>{
+            console.log(e)
+        })
+        
         this.props.msgAction.get()
 
     }
@@ -30,19 +34,18 @@ class MsgListContainer extends React.Component {
             return false
         }
 
-        return <div className="panel">
-            <table className="table">
-                <tbody>
-                {items.map((item) => {
-                    return <tr key={item.id}>
-                        <td>{item.message}</td>
-                        <td>{item.user.names}</td>
-                    </tr>
-                })}
-                </tbody>
-            </table>
-        </div>
+        return <div>
+            {items.map((item) => {
 
+                return <div className="row no-gutters msg" key={item.id}>
+                    <div className="col">
+                        <div className="msg-col msg__username">{item.user.name}</div>
+                        <div className="msg-col">{item.message}</div>
+                    </div>
+                    <div className="msg__time">14:52</div>
+                </div>
+            })}
+        </div>
     }
 }
 MsgListContainer.propTypes = {}

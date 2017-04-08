@@ -1,10 +1,59 @@
 @import "components/*"
 @import "theme/*";
 
-body {
-  padding-top: 54px;
-}
-
 .page-padding {
   padding-top: 32px;
+}
+
+.layout-right {
+  
+}
+
+::-webkit-scrollbar {
+  width:  8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00695C;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+body {
+  scrollbar-face-color: #00695C;
+  scrollbar-track-color: #ccc;
+}
+
+.layout-messages {
+  overflow-y: scroll;
+  max-height: calc(100vh - 48px);
+  padding: 16px 0;
+}
+
+.layout-sendform {
+  height: 48px;
+}
+
+.layout-sendform {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.layout-sendform input {
+  flex: 1;
+  padding: 0 16px;
+  line-height: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.layout-sendform .btn {
+  padding: 0 24px;
+  border-radius: 0;
+  border: 0;
+  border-left: 1px solid #ccc;
 }

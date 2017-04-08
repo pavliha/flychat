@@ -12,9 +12,9 @@ webpackJsonp_name_([0],[
 /* 9 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/utils.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/utils.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -301,9 +301,9 @@ module.exports = {
 /* 10 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_core.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_core.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports) {
 
 var core = module.exports = {version: '2.4.0'};
@@ -317,9 +317,9 @@ if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 /* 15 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_global.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_global.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports) {
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -332,9 +332,9 @@ if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 /* 17 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_descriptors.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_descriptors.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
@@ -346,9 +346,9 @@ module.exports = !__webpack_require__(/*! ./_fails */ 25)(function(){
 /* 18 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_export.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_export.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global    = __webpack_require__(/*! ./_global */ 15)
@@ -417,9 +417,9 @@ module.exports = $export;
 /* 19 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_has.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_has.js ***!
+  \******************************************************************/
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -431,9 +431,9 @@ module.exports = function(it, key){
 /* 20 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-dp.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-dp.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject       = __webpack_require__(/*! ./_an-object */ 31)
@@ -457,9 +457,9 @@ exports.f = __webpack_require__(/*! ./_descriptors */ 17) ? Object.definePropert
 /* 21 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-iobject.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-iobject.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
@@ -476,9 +476,9 @@ module.exports = function(it){
 /* 25 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_fails.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_fails.js ***!
+  \********************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(exec){
@@ -493,9 +493,9 @@ module.exports = function(exec){
 /* 26 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_hide.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_hide.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP         = __webpack_require__(/*! ./_object-dp */ 20)
@@ -511,9 +511,9 @@ module.exports = __webpack_require__(/*! ./_descriptors */ 17) ? function(object
 /* 27 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_wks.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_wks.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var store      = __webpack_require__(/*! ./_shared */ 59)('wks')
@@ -535,9 +535,9 @@ $exports.store = store;
 /* 31 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_an-object.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_an-object.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./_is-object */ 32);
@@ -550,9 +550,9 @@ module.exports = function(it){
 /* 32 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_is-object.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_is-object.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(it){
@@ -563,9 +563,9 @@ module.exports = function(it){
 /* 33 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-keys.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-keys.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
@@ -586,9 +586,9 @@ module.exports = Object.keys || function keys(O){
 /* 40 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-pie.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-pie.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
@@ -597,9 +597,9 @@ exports.f = {}.propertyIsEnumerable;
 /* 41 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_property-desc.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_property-desc.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(bitmap, value){
@@ -615,9 +615,9 @@ module.exports = function(bitmap, value){
 /* 42 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_uid.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_uid.js ***!
+  \******************************************************************/
 /***/ (function(module, exports) {
 
 var id = 0
@@ -636,9 +636,9 @@ module.exports = function(key){
 /* 49 */
 /* exports provided: createStore, combineReducers, bindActionCreators, applyMiddleware, compose */
 /* all exports used */
-/*!********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/index.js ***!
-  \********************************************************/
+/*!****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/index.js ***!
+  \****************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -709,9 +709,9 @@ module.exports = g;
 /* 51 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_defined.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_defined.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -724,9 +724,9 @@ module.exports = function(it){
 /* 52 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_enum-bug-keys.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_enum-bug-keys.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -738,9 +738,9 @@ module.exports = (
 /* 53 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_iterators.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_iterators.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = {};
@@ -749,9 +749,9 @@ module.exports = {};
 /* 54 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_library.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_library.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = true;
@@ -760,9 +760,9 @@ module.exports = true;
 /* 55 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-create.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-create.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
@@ -812,9 +812,9 @@ module.exports = Object.create || function create(O, Properties){
 /* 56 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-gops.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-gops.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
@@ -823,9 +823,9 @@ exports.f = Object.getOwnPropertySymbols;
 /* 57 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_set-to-string-tag.js ***!
-  \************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_set-to-string-tag.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(/*! ./_object-dp */ 20).f
@@ -840,9 +840,9 @@ module.exports = function(it, tag, stat){
 /* 58 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_shared-key.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_shared-key.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var shared = __webpack_require__(/*! ./_shared */ 59)('keys')
@@ -855,9 +855,9 @@ module.exports = function(key){
 /* 59 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_shared.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_shared.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ./_global */ 15)
@@ -871,9 +871,9 @@ module.exports = function(key){
 /* 60 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-integer.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-integer.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -887,9 +887,9 @@ module.exports = function(it){
 /* 61 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-object.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-object.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
@@ -902,9 +902,9 @@ module.exports = function(it){
 /* 62 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-primitive.js ***!
-  \*******************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-primitive.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
@@ -924,9 +924,9 @@ module.exports = function(it, S){
 /* 63 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_wks-define.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_wks-define.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global         = __webpack_require__(/*! ./_global */ 15)
@@ -943,9 +943,9 @@ module.exports = function(name){
 /* 64 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_wks-ext.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_wks-ext.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 exports.f = __webpack_require__(/*! ./_wks */ 27);
@@ -955,9 +955,9 @@ exports.f = __webpack_require__(/*! ./_wks */ 27);
 /* 66 */
 /* exports provided: default */
 /* exports used: default */
-/*!*****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/isPlainObject.js ***!
-  \*****************************************************************/
+/*!*************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/isPlainObject.js ***!
+  \*************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1032,9 +1032,9 @@ function isPlainObject(value) {
 /* 67 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/isObject.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/isObject.js ***!
+  \*****************************************************/
 /***/ (function(module, exports) {
 
 /**
@@ -1089,9 +1089,9 @@ module.exports = isObject;
 /* 83 */
 /* exports provided: default */
 /* exports used: default */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/utils/warning.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/utils/warning.js ***!
+  \******************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1128,9 +1128,9 @@ function warning(message) {
 /* 90 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/adapters/xhr.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/adapters/xhr.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1302,9 +1302,9 @@ module.exports = function xhrAdapter(resolve, reject, config) {
 /* 91 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/transformData.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/transformData.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1355,9 +1355,9 @@ exports.default = types;
 /* 93 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/json/stringify.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/json/stringify.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/json/stringify */ 184), __esModule: true };
@@ -1366,9 +1366,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/json/st
 /* 94 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/classCallCheck.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/classCallCheck.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1386,9 +1386,9 @@ exports.default = function (instance, Constructor) {
 /* 95 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/createClass.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/createClass.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1424,9 +1424,9 @@ exports.default = function () {
 /* 96 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/extends.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/extends.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1458,9 +1458,9 @@ exports.default = _assign2.default || function (target) {
 /* 97 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/typeof.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/typeof.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1490,9 +1490,9 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 /* 98 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_cof.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_cof.js ***!
+  \******************************************************************/
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -1505,9 +1505,9 @@ module.exports = function(it){
 /* 99 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_ctx.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_ctx.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
@@ -1535,9 +1535,9 @@ module.exports = function(fn, that, length){
 /* 100 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_dom-create.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_dom-create.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./_is-object */ 32)
@@ -1552,9 +1552,9 @@ module.exports = function(it){
 /* 101 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_ie8-dom-define.js ***!
-  \*********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_ie8-dom-define.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = !__webpack_require__(/*! ./_descriptors */ 17) && !__webpack_require__(/*! ./_fails */ 25)(function(){
@@ -1565,9 +1565,9 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ 17) && !__webpack_re
 /* 102 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_iobject.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_iobject.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
@@ -1580,9 +1580,9 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
 /* 103 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_iter-define.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_iter-define.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1661,9 +1661,9 @@ module.exports = function(Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED
 /* 104 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-gopd.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-gopd.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var pIE            = __webpack_require__(/*! ./_object-pie */ 40)
@@ -1687,9 +1687,9 @@ exports.f = __webpack_require__(/*! ./_descriptors */ 17) ? gOPD : function getO
 /* 105 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-gopn.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-gopn.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
@@ -1704,9 +1704,9 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O){
 /* 106 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-gpo.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-gpo.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
@@ -1727,9 +1727,9 @@ module.exports = Object.getPrototypeOf || function(O){
 /* 107 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-keys-internal.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-keys-internal.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var has          = __webpack_require__(/*! ./_has */ 19)
@@ -1754,9 +1754,9 @@ module.exports = function(object, names){
 /* 108 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_redefine.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_redefine.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./_hide */ 26);
@@ -1768,9 +1768,9 @@ module.exports = __webpack_require__(/*! ./_hide */ 26);
 /* 112 */
 /* exports provided: default */
 /* exports used: default */
-/*!***********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_Symbol.js ***!
-  \***********************************************************/
+/*!*******************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_Symbol.js ***!
+  \*******************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1787,9 +1787,9 @@ var Symbol = __WEBPACK_IMPORTED_MODULE_0__root_js__["a" /* default */].Symbol;
 /* 113 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_Symbol.js ***!
-  \********************************************************/
+/*!****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_Symbol.js ***!
+  \****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(/*! ./_root */ 114);
@@ -1804,9 +1804,9 @@ module.exports = Symbol;
 /* 114 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_root.js ***!
-  \******************************************************/
+/*!**************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_root.js ***!
+  \**************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ 248);
@@ -1845,9 +1845,9 @@ module.exports = root;
 /* 136 */
 /* exports provided: default */
 /* exports used: default */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/components/connectAdvanced.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/components/connectAdvanced.js ***!
+  \*******************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2122,9 +2122,9 @@ selectorFactory) {
 /* 137 */
 /* exports provided: wrapMapToPropsConstant, getDependsOnOwnProps, wrapMapToPropsFunc */
 /* exports used: wrapMapToPropsFunc, wrapMapToPropsConstant */
-/*!*******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/wrapMapToProps.js ***!
-  \*******************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/wrapMapToProps.js ***!
+  \***************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2202,9 +2202,9 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
 /* 138 */
 /* exports provided: Provider, connectAdvanced, connect */
 /* all exports used */
-/*!**************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/index.js ***!
-  \**************************************************************/
+/*!**********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/index.js ***!
+  \**********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2225,9 +2225,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 139 */
 /* exports provided: default */
 /* exports used: default */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/utils/Subscription.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/utils/Subscription.js ***!
+  \***********************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2326,9 +2326,9 @@ var Subscription = function () {
 /* 140 */
 /* exports provided: default */
 /* exports used: default */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/utils/storeShape.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/utils/storeShape.js ***!
+  \*********************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2346,9 +2346,9 @@ var Subscription = function () {
 /* 141 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/utils/verifyPlainObject.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/utils/verifyPlainObject.js ***!
+  \****************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2371,9 +2371,9 @@ function verifyPlainObject(value, displayName, methodName) {
 /* 145 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-logger/lib/helpers.js ***!
-  \******************************************************************/
+/*!**************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-logger/lib/helpers.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2401,9 +2401,9 @@ var timer = exports.timer = typeof performance !== "undefined" && performance !=
 /* 146 */
 /* exports provided: default */
 /* exports used: default */
-/*!**********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/compose.js ***!
-  \**********************************************************/
+/*!******************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/compose.js ***!
+  \******************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2447,9 +2447,9 @@ function compose() {
 /* 147 */
 /* exports provided: ActionTypes, default */
 /* exports used: default, ActionTypes */
-/*!**************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/createStore.js ***!
-  \**************************************************************/
+/*!**********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/createStore.js ***!
+  \**********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2711,9 +2711,9 @@ function createStore(reducer, preloadedState, enhancer) {
 /* 148 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/utils/warning.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/utils/warning.js ***!
+  \************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2892,6 +2892,10 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
         key: "componentWillMount",
         value: function componentWillMount() {
 
+            window.Echo.channel("msg").listen("MessageSend", function (e) {
+                console.log(e);
+            });
+
             this.props.msgAction.get();
         }
     }, {
@@ -2912,31 +2916,33 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
 
             return _react2.default.createElement(
                 "div",
-                { className: "panel" },
-                _react2.default.createElement(
-                    "table",
-                    { className: "table" },
-                    _react2.default.createElement(
-                        "tbody",
-                        null,
-                        items.map(function (item) {
-                            return _react2.default.createElement(
-                                "tr",
-                                { key: item.id },
-                                _react2.default.createElement(
-                                    "td",
-                                    null,
-                                    item.message
-                                ),
-                                _react2.default.createElement(
-                                    "td",
-                                    null,
-                                    item.user.names
-                                )
-                            );
-                        })
-                    )
-                )
+                null,
+                items.map(function (item) {
+
+                    return _react2.default.createElement(
+                        "div",
+                        { className: "row no-gutters msg", key: item.id },
+                        _react2.default.createElement(
+                            "div",
+                            { className: "col" },
+                            _react2.default.createElement(
+                                "div",
+                                { className: "msg-col msg__username" },
+                                item.user.name
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { className: "msg-col" },
+                                item.message
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "msg__time" },
+                            "14:52"
+                        )
+                    );
+                })
             );
         }
     }]);
@@ -2961,9 +2967,9 @@ exports.default = MsgListContainer;
 /* 152 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/index.js ***!
-  \*****************************************************/
+/*!*************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/index.js ***!
+  \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./lib/axios */ 153);
@@ -2972,9 +2978,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ 153);
 /* 153 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/axios.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/axios.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3107,9 +3113,9 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 /* 154 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/core/InterceptorManager.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3171,9 +3177,9 @@ module.exports = InterceptorManager;
 /* 155 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/core/dispatchRequest.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3218,9 +3224,9 @@ module.exports = function dispatchRequest(config) {
 /* 156 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/defaults.js ***!
-  \************************************************************/
+/*!********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/defaults.js ***!
+  \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3302,9 +3308,9 @@ module.exports = {
 /* 157 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/bind.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/bind.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3325,9 +3331,9 @@ module.exports = function bind(fn, thisArg) {
 /* 158 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/btoa.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/btoa.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3373,9 +3379,9 @@ module.exports = btoa;
 /* 159 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/buildURL.js ***!
-  \********************************************************************/
+/*!****************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/buildURL.js ***!
+  \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3453,9 +3459,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /* 160 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/combineURLs.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3477,9 +3483,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /* 161 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/cookies.js ***!
-  \*******************************************************************/
+/*!***************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/cookies.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3542,9 +3548,9 @@ module.exports = (
 /* 162 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/isAbsoluteURL.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3568,9 +3574,9 @@ module.exports = function isAbsoluteURL(url) {
 /* 163 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/isURLSameOrigin.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3648,9 +3654,9 @@ module.exports = (
 /* 164 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/normalizeHeaderName.js ***!
-  \*******************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3672,9 +3678,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /* 165 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/parseHeaders.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3721,9 +3727,9 @@ module.exports = function parseHeaders(headers) {
 /* 166 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/settle.js ***!
-  \******************************************************************/
+/*!**************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/settle.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3751,9 +3757,9 @@ module.exports = function settle(resolve, reject, response) {
 /* 167 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/axios/lib/helpers/spread.js ***!
-  \******************************************************************/
+/*!**************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/axios/lib/helpers/spread.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4094,9 +4100,9 @@ exports.default = store;
 /* 175 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/object/assign.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/object/assign.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/assign */ 185), __esModule: true };
@@ -4105,9 +4111,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /* 176 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/object/create.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/object/create.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/create */ 186), __esModule: true };
@@ -4116,9 +4122,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /* 177 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/object/define-property.js ***!
-  \**************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/object/define-property.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/define-property */ 187), __esModule: true };
@@ -4127,9 +4133,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /* 178 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/object/get-prototype-of.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/object/get-prototype-of.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ 188), __esModule: true };
@@ -4138,9 +4144,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /* 179 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/object/set-prototype-of.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/object/set-prototype-of.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ 189), __esModule: true };
@@ -4149,9 +4155,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /* 180 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/symbol.js ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/symbol.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol */ 190), __esModule: true };
@@ -4160,9 +4166,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol 
 /* 181 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/core-js/symbol/iterator.js ***!
-  \*******************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/core-js/symbol/iterator.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ 191), __esModule: true };
@@ -4171,9 +4177,9 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/
 /* 182 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/inherits.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/inherits.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4215,9 +4221,9 @@ exports.default = function (subClass, superClass) {
 /* 183 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/babel-runtime/helpers/possibleConstructorReturn.js ***!
-  \*****************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/babel-runtime/helpers/possibleConstructorReturn.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4243,9 +4249,9 @@ exports.default = function (self, call) {
 /* 184 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/json/stringify.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var core  = __webpack_require__(/*! ../../modules/_core */ 10)
@@ -4258,9 +4264,9 @@ module.exports = function stringify(it){ // eslint-disable-line no-unused-vars
 /* 185 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/object/assign.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/object/assign.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.object.assign */ 211);
@@ -4270,9 +4276,9 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ 10).Object.assig
 /* 186 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/object/create.js ***!
-  \**************************************************************************/
+/*!**********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/object/create.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.object.create */ 212);
@@ -4285,9 +4291,9 @@ module.exports = function create(P, D){
 /* 187 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/object/define-property.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/object/define-property.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.object.define-property */ 213);
@@ -4300,9 +4306,9 @@ module.exports = function defineProperty(it, key, desc){
 /* 188 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/object/get-prototype-of.js ***!
-  \************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/object/get-prototype-of.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ 214);
@@ -4312,9 +4318,9 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ 10).Object.getPr
 /* 189 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/object/set-prototype-of.js ***!
-  \************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/object/set-prototype-of.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ 215);
@@ -4324,9 +4330,9 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ 10).Object.setPr
 /* 190 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/symbol/index.js ***!
-  \*************************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/symbol/index.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.symbol */ 218);
@@ -4339,9 +4345,9 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ 10).Symbol;
 /* 191 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/fn/symbol/iterator.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/fn/symbol/iterator.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.string.iterator */ 217);
@@ -4352,9 +4358,9 @@ module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ 64).f('iterat
 /* 192 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_a-function.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_a-function.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(it){
@@ -4366,9 +4372,9 @@ module.exports = function(it){
 /* 193 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_add-to-unscopables.js ***!
-  \*************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_add-to-unscopables.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(){ /* empty */ };
@@ -4377,9 +4383,9 @@ module.exports = function(){ /* empty */ };
 /* 194 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_array-includes.js ***!
-  \*********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_array-includes.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
@@ -4408,9 +4414,9 @@ module.exports = function(IS_INCLUDES){
 /* 195 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_enum-keys.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_enum-keys.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
@@ -4433,9 +4439,9 @@ module.exports = function(it){
 /* 196 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_html.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_html.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./_global */ 15).document && document.documentElement;
@@ -4444,9 +4450,9 @@ module.exports = __webpack_require__(/*! ./_global */ 15).document && document.d
 /* 197 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_is-array.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_is-array.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
@@ -4459,9 +4465,9 @@ module.exports = Array.isArray || function isArray(arg){
 /* 198 */
 /* unknown exports provided */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_iter-create.js ***!
-  \******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_iter-create.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4483,9 +4489,9 @@ module.exports = function(Constructor, NAME, next){
 /* 199 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_iter-step.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_iter-step.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function(done, value){
@@ -4496,9 +4502,9 @@ module.exports = function(done, value){
 /* 200 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_keyof.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_keyof.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var getKeys   = __webpack_require__(/*! ./_object-keys */ 33)
@@ -4516,9 +4522,9 @@ module.exports = function(object, el){
 /* 201 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_meta.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_meta.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var META     = __webpack_require__(/*! ./_uid */ 42)('meta')
@@ -4579,9 +4585,9 @@ var meta = module.exports = {
 /* 202 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-assign.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-assign.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4623,9 +4629,9 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ 25)(function(){
 /* 203 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-dps.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-dps.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP       = __webpack_require__(/*! ./_object-dp */ 20)
@@ -4646,9 +4652,9 @@ module.exports = __webpack_require__(/*! ./_descriptors */ 17) ? Object.definePr
 /* 204 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-gopn-ext.js ***!
-  \**********************************************************************************/
+/*!******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-gopn-ext.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
@@ -4676,9 +4682,9 @@ module.exports.f = function getOwnPropertyNames(it){
 /* 205 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_object-sap.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_object-sap.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
@@ -4696,9 +4702,9 @@ module.exports = function(KEY, exec){
 /* 206 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_set-proto.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_set-proto.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
@@ -4731,9 +4737,9 @@ module.exports = {
 /* 207 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_string-at.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_string-at.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(/*! ./_to-integer */ 60)
@@ -4758,9 +4764,9 @@ module.exports = function(TO_STRING){
 /* 208 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-index.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-index.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(/*! ./_to-integer */ 60)
@@ -4775,9 +4781,9 @@ module.exports = function(index, length){
 /* 209 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/_to-length.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/_to-length.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
@@ -4791,9 +4797,9 @@ module.exports = function(it){
 /* 210 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.array.iterator.js ***!
-  \************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.array.iterator.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4836,9 +4842,9 @@ addToUnscopables('entries');
 /* 211 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.assign.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.1 Object.assign(target, source)
@@ -4850,9 +4856,9 @@ $export($export.S + $export.F, 'Object', {assign: __webpack_require__(/*! ./_obj
 /* 212 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.create.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.create.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(/*! ./_export */ 18)
@@ -4863,9 +4869,9 @@ $export($export.S, 'Object', {create: __webpack_require__(/*! ./_object-create *
 /* 213 */
 /* unknown exports provided */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.define-property.js ***!
-  \********************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.define-property.js ***!
+  \****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(/*! ./_export */ 18);
@@ -4876,9 +4882,9 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ 17), 
 /* 214 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.get-prototype-of.js ***!
-  \*********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.get-prototype-of.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
@@ -4895,9 +4901,9 @@ __webpack_require__(/*! ./_object-sap */ 205)('getPrototypeOf', function(){
 /* 215 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.set-prototype-of.js ***!
-  \*********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.set-prototype-of.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
@@ -4908,9 +4914,9 @@ $export($export.S, 'Object', {setPrototypeOf: __webpack_require__(/*! ./_set-pro
 /* 216 */
 /* unknown exports provided */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.object.to-string.js ***!
-  \**************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.object.to-string.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports) {
 
 
@@ -4919,9 +4925,9 @@ $export($export.S, 'Object', {setPrototypeOf: __webpack_require__(/*! ./_set-pro
 /* 217 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.string.iterator.js ***!
-  \*************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.string.iterator.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4947,9 +4953,9 @@ __webpack_require__(/*! ./_iter-define */ 103)(String, 'String', function(iterat
 /* 218 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es6.symbol.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es6.symbol.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5193,9 +5199,9 @@ setToStringTag(global.JSON, 'JSON', true);
 /* 219 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es7.symbol.async-iterator.js ***!
-  \*******************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es7.symbol.async-iterator.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ./_wks-define */ 63)('asyncIterator');
@@ -5204,9 +5210,9 @@ __webpack_require__(/*! ./_wks-define */ 63)('asyncIterator');
 /* 220 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/es7.symbol.observable.js ***!
-  \***************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/es7.symbol.observable.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ./_wks-define */ 63)('observable');
@@ -5215,9 +5221,9 @@ __webpack_require__(/*! ./_wks-define */ 63)('observable');
 /* 221 */
 /* unknown exports provided */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/core-js/library/modules/web.dom.iterable.js ***!
-  \**********************************************************************************/
+/*!******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/core-js/library/modules/web.dom.iterable.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ./es6.array.iterator */ 210);
@@ -5238,9 +5244,9 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 /* 222 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/deep-diff/index.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/deep-diff/index.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -5687,9 +5693,9 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 /* 237 */
 /* unknown exports provided */
 /* exports used: default */
-/*!***********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/hoist-non-react-statics/index.js ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/hoist-non-react-statics/index.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5749,9 +5755,9 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 /* 238 */
 /* unknown exports provided */
 /* exports used: default */
-/*!***********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/invariant/browser.js ***!
-  \***********************************************************/
+/*!*******************************************************!*\
+  !*** /home/pavel/Code/flychat/~/invariant/browser.js ***!
+  \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5812,9 +5818,9 @@ module.exports = invariant;
 /* 239 */
 /* exports provided: default */
 /* exports used: default */
-/*!***************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_baseGetTag.js ***!
-  \***************************************************************/
+/*!***********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_baseGetTag.js ***!
+  \***********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5855,9 +5861,9 @@ function baseGetTag(value) {
 /* 240 */
 /* exports provided: default */
 /* exports used: default */
-/*!***************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_freeGlobal.js ***!
-  \***************************************************************/
+/*!***********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_freeGlobal.js ***!
+  \***********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5872,9 +5878,9 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 /* 241 */
 /* exports provided: default */
 /* exports used: default */
-/*!*****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_getPrototype.js ***!
-  \*****************************************************************/
+/*!*************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_getPrototype.js ***!
+  \*************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5891,9 +5897,9 @@ var getPrototype = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__overArg_js
 /* 242 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_getRawTag.js ***!
-  \**************************************************************/
+/*!**********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_getRawTag.js ***!
+  \**********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5950,9 +5956,9 @@ function getRawTag(value) {
 /* 243 */
 /* exports provided: default */
 /* exports used: default */
-/*!*******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_objectToString.js ***!
-  \*******************************************************************/
+/*!***************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_objectToString.js ***!
+  \***************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5984,9 +5990,9 @@ function objectToString(value) {
 /* 244 */
 /* exports provided: default */
 /* exports used: default */
-/*!************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_overArg.js ***!
-  \************************************************************/
+/*!********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_overArg.js ***!
+  \********************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6011,9 +6017,9 @@ function overArg(func, transform) {
 /* 245 */
 /* exports provided: default */
 /* exports used: default */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/_root.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/_root.js ***!
+  \*****************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6033,9 +6039,9 @@ var root = __WEBPACK_IMPORTED_MODULE_0__freeGlobal_js__["a" /* default */] || fr
 /* 246 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash-es/isObjectLike.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash-es/isObjectLike.js ***!
+  \************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6074,9 +6080,9 @@ function isObjectLike(value) {
 /* 247 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_baseGetTag.js ***!
-  \************************************************************/
+/*!********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_baseGetTag.js ***!
+  \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ 113),
@@ -6113,9 +6119,9 @@ module.exports = baseGetTag;
 /* 248 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_freeGlobal.js ***!
-  \************************************************************/
+/*!********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_freeGlobal.js ***!
+  \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
@@ -6129,9 +6135,9 @@ module.exports = freeGlobal;
 /* 249 */
 /* unknown exports provided */
 /* all exports used */
-/*!***********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_getRawTag.js ***!
-  \***********************************************************/
+/*!*******************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_getRawTag.js ***!
+  \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ 113);
@@ -6186,9 +6192,9 @@ module.exports = getRawTag;
 /* 250 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/_objectToString.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/_objectToString.js ***!
+  \************************************************************/
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -6219,9 +6225,9 @@ module.exports = objectToString;
 /* 251 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/debounce.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/debounce.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./isObject */ 67),
@@ -6418,9 +6424,9 @@ module.exports = debounce;
 /* 252 */
 /* unknown exports provided */
 /* all exports used */
-/*!*************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/isObjectLike.js ***!
-  \*************************************************************/
+/*!*********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/isObjectLike.js ***!
+  \*********************************************************/
 /***/ (function(module, exports) {
 
 /**
@@ -6458,9 +6464,9 @@ module.exports = isObjectLike;
 /* 253 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/isSymbol.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/isSymbol.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ 247),
@@ -6498,9 +6504,9 @@ module.exports = isSymbol;
 /* 254 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/now.js ***!
-  \****************************************************/
+/*!************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/now.js ***!
+  \************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(/*! ./_root */ 114);
@@ -6532,9 +6538,9 @@ module.exports = now;
 /* 255 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/throttle.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/throttle.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var debounce = __webpack_require__(/*! ./debounce */ 251),
@@ -6612,9 +6618,9 @@ module.exports = throttle;
 /* 256 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/lodash/toNumber.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** /home/pavel/Code/flychat/~/lodash/toNumber.js ***!
+  \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./isObject */ 67),
@@ -6760,9 +6766,9 @@ module.exports = toNumber;
 /* 328 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/components/Provider.js ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/components/Provider.js ***!
+  \************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6845,9 +6851,9 @@ Provider.displayName = 'Provider';
 /* 329 */
 /* exports provided: createConnect, default */
 /* exports used: default */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/connect.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/connect.js ***!
+  \********************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6966,9 +6972,9 @@ function createConnect() {
 /* 330 */
 /* exports provided: whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject, default */
 /* exports used: default */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/mapDispatchToProps.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/mapDispatchToProps.js ***!
+  \*******************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7002,9 +7008,9 @@ function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
 /* 331 */
 /* exports provided: whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing, default */
 /* exports used: default */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/mapStateToProps.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/mapStateToProps.js ***!
+  \****************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7029,9 +7035,9 @@ function whenMapStateToPropsIsMissing(mapStateToProps) {
 /* 332 */
 /* exports provided: defaultMergeProps, wrapMergePropsFunc, whenMergePropsIsFunction, whenMergePropsIsOmitted, default */
 /* exports used: default */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/mergeProps.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/mergeProps.js ***!
+  \***********************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7090,9 +7096,9 @@ function whenMergePropsIsOmitted(mergeProps) {
 /* 333 */
 /* exports provided: impureFinalPropsSelectorFactory, pureFinalPropsSelectorFactory, default */
 /* exports used: default */
-/*!********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/selectorFactory.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/selectorFactory.js ***!
+  \****************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7207,9 +7213,9 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 /* 334 */
 /* exports provided: default */
 /* exports used: default */
-/*!***********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/connect/verifySubselectors.js ***!
-  \***********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/connect/verifySubselectors.js ***!
+  \*******************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7237,9 +7243,9 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 /* 335 */
 /* exports provided: default */
 /* exports used: default */
-/*!***************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react-redux/es/utils/shallowEqual.js ***!
-  \***************************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react-redux/es/utils/shallowEqual.js ***!
+  \***********************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7279,9 +7285,9 @@ function shallowEqual(a, b) {
 /* 347 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-logger/lib/core.js ***!
-  \***************************************************************/
+/*!***********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-logger/lib/core.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7426,9 +7432,9 @@ function printBuffer(buffer, options) {
 /* 348 */
 /* unknown exports provided */
 /* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-logger/lib/defaults.js ***!
-  \*******************************************************************/
+/*!***************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-logger/lib/defaults.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7483,9 +7489,9 @@ module.exports = exports['default'];
 /* 349 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-logger/lib/diff.js ***!
-  \***************************************************************/
+/*!***********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-logger/lib/diff.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7585,9 +7591,9 @@ module.exports = exports['default'];
 /* 350 */
 /* unknown exports provided */
 /* all exports used */
-/*!****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-logger/lib/index.js ***!
-  \****************************************************************/
+/*!************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-logger/lib/index.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7709,9 +7715,9 @@ module.exports = exports['default'];
 /* 351 */
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-promise-middleware/dist/index.js ***!
-  \*****************************************************************************/
+/*!*************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-promise-middleware/dist/index.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7892,9 +7898,9 @@ module.exports = function promiseMiddleware() {
 /* 352 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-promise-middleware/dist/isPromise.js ***!
-  \*********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-promise-middleware/dist/isPromise.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7919,9 +7925,9 @@ function isPromise(value) {
 /* 353 */
 /* unknown exports provided */
 /* all exports used */
-/*!***************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux-thunk/lib/index.js ***!
-  \***************************************************************/
+/*!***********************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux-thunk/lib/index.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7953,9 +7959,9 @@ exports['default'] = thunk;
 /* 354 */
 /* exports provided: default */
 /* exports used: default */
-/*!******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/applyMiddleware.js ***!
-  \******************************************************************/
+/*!**************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/applyMiddleware.js ***!
+  \**************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8014,9 +8020,9 @@ function applyMiddleware() {
 /* 355 */
 /* exports provided: default */
 /* exports used: default */
-/*!*********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/bindActionCreators.js ***!
-  \*********************************************************************/
+/*!*****************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/bindActionCreators.js ***!
+  \*****************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8073,9 +8079,9 @@ function bindActionCreators(actionCreators, dispatch) {
 /* 356 */
 /* exports provided: default */
 /* exports used: default */
-/*!******************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/redux/es/combineReducers.js ***!
-  \******************************************************************/
+/*!**************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/redux/es/combineReducers.js ***!
+  \**************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8217,9 +8223,9 @@ function combineReducers(reducers) {
 /* 357 */
 /* unknown exports provided */
 /* exports used: default */
-/*!*****************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/symbol-observable/index.js ***!
-  \*****************************************************************/
+/*!*************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/symbol-observable/index.js ***!
+  \*************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./lib/index */ 358);
@@ -8229,9 +8235,9 @@ module.exports = __webpack_require__(/*! ./lib/index */ 358);
 /* 358 */
 /* unknown exports provided */
 /* all exports used */
-/*!*********************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/symbol-observable/lib/index.js ***!
-  \*********************************************************************/
+/*!*****************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/symbol-observable/lib/index.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8270,9 +8276,9 @@ exports['default'] = result;
 /* 359 */
 /* unknown exports provided */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/symbol-observable/lib/ponyfill.js ***!
-  \************************************************************************/
+/*!********************************************************************!*\
+  !*** /home/pavel/Code/flychat/~/symbol-observable/lib/ponyfill.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
