@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);.gold {
+.gold {
   color: #ffbf00;
 }
 .product {
@@ -186,44 +186,11 @@
 .breadcrumb {
   background-color: transparent;
 }
-html {
-  overflow-y: scroll;
-}
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 54px;
 }
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.flex-1 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-.flex-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-a:hover {
-  text-decoration: none;
-}
-ul > li {
-  margin-right: 25px;
-  font-weight: lighter;
-  cursor: pointer;
+.page-padding {
+  padding-top: 32px;
 }
 
 /*# sourceMappingURL=main.css.map*/
