@@ -23,11 +23,14 @@
             crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('styles/main.css') }}" rel="stylesheet">
+    <script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
+
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
+            'PUSHER_KEY' => "f07415a3f78444a23bc2"
         ]) !!};
     </script>
     <link rel="stylesheet" href="/{{$asset["index.css"]}}" type="text/css">

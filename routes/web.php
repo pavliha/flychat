@@ -24,4 +24,5 @@ Route::get("/","IndexController@index");
 Route::resource("/home","HomeController");
 
 
-Route::get('/api/messages', 'MessageController@allMessages');
+Route::get('/api/messages', 'MessageController@index');
+Route::post('/api/messages', 'MessageController@store');
