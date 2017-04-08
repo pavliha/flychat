@@ -15,13 +15,15 @@ use App\Task;
 use App\User;
 use Illuminate\Http\Request;
 
-Route::get('/', function () {
-    return redirect("/tasks");
-});
+//Route::get('/', function () {
+//    return redirect("/tasks");
+//});
 
 Auth::routes();
 
 Route::get('/api/messages', 'MessageController@allMessages');
+Route::get('/api/messages', 'MessageController@allMessages');
+
 
 //Route::post("/api/task/assign", function (Request $request) {
 //    $task = Task::find($request->task);
