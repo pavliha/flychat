@@ -11,10 +11,6 @@
 |
 */
 
-Broadcast::channel('App.User.{id}', function ($user, $id) {
-    return (int) $user->id === (int) $id;
-});
-
-Broadcast::channel('msg.{msgId}', function ($user, $msgId) {
-    return $user->id === \App\Message::findOrNew($msgId)->user_id;
+Broadcast::channel('msg', function ($user, $msgId) {
+    return true;
 });

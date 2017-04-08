@@ -36,6 +36,6 @@ class MessageSend implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return  new Channel('msg');
+        return new PrivateChannel('msg');
     }
 }

@@ -15,11 +15,11 @@ class MsgListContainer extends React.Component {
 
     componentWillMount() {
 
-        window.Echo.channel("msg").listen("MessageSend",e=>{
+        window.echo.channel("msg").listen("MessageSend",e=>{
             console.log(e)
+            this.props.msgAction.get()
         })
-        
-        this.props.msgAction.get()
+
 
     }
 

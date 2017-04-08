@@ -1,17 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    <div class="js-MsgList"></div>
-                    <div class="js-AddMsg"></div>
-=======
 <div class="container-fluid">
     <div class="row no-gutters">
         <div class="col-md-2 user-list-wrapper">
@@ -29,11 +18,7 @@
                         <div class="js-MsgList"></div>
                     </div>
                 </div>
-                <div class="layout-sendform">
-                    <input type="text" placeholder="Type message..." autofocus="true">
-                    <button class="btn btn-secondary">Send</button>
->>>>>>> 083e4ab2b364e155a971dbfeb61655b68501edd0
-                </div>
+              <div class="js-AddMsg">
             </div>
         </div>
         </div>

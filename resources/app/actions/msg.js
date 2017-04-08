@@ -3,8 +3,6 @@ import types from "./types"
 export default {
 
     get(){
-
-
         return {
             type: types.GET_MSG,
             payload: axios.get("/api/messages")
@@ -12,8 +10,25 @@ export default {
     },
 
     add(form){
+
+        return function (dispatch) {
+            dispatch({
+                type: types.ADD_MSG + "_PENDING",
+            })
+            axios.post("/api/messages", new FormData(form)).then(response => {
+                dispatch({
+                    type: types.ADD_MSG + "_FULFILLED",
+                    payload: response
+                })
+            }).catch(e => {
+                dispatch({
+                    type: types.ADD_MSG + "_REJECTED",
+                })
+            })
+
+        }
         return {
-            types: types.ADD_MSG,
+            type: types.ADD_MSG,
             payload: axios.post("/api/messages", new FormData(form))
         }
     }

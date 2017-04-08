@@ -1,12 +1,12 @@
 var react =
 webpackJsonp_name_([1],{
 
-/***/ 14:
+/***/ 13:
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react/react.js ***!
-  \*****************************************************/
+/*!*************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react/react.js ***!
+  \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17,7 +17,7 @@ module.exports = __webpack_require__(/*! ./lib/React */ 30);
 
 /***/ }),
 
-/***/ 362:
+/***/ 365:
 /* unknown exports provided */
 /* all exports used */
 /*!*******************!*\
@@ -25,10 +25,10 @@ module.exports = __webpack_require__(/*! ./lib/React */ 30);
   \*******************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! react */14);
+module.exports = __webpack_require__(/*! react */13);
 
 
 /***/ })
 
-},[362]);
+},[365]);
 //# sourceMappingURL=react.js.map

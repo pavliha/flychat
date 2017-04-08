@@ -8,6 +8,7 @@ import Echo from "laravel-echo"
 window.Pusher = require("pusher-js")
 require("styles/main.styl")
 
+console.log(window.Laravel.PUSHER_KEY)
 window.Echo = Echo
 window.echo = new Echo({
     broadcaster: 'pusher',
