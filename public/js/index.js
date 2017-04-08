@@ -3813,7 +3813,7 @@ exports.default = {
     get: function get() {
         return {
             type: _types2.default.GET_MSG,
-            payload: _axios2.default.get("/api/msg")
+            payload: _axios2.default.get("/api/messages")
         };
     }
 };
@@ -8335,7 +8335,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 __webpack_require__(/*! styles/main.styl */ 151);
 
-_Boot2.default.renderReactFor(".js-TaskList", _react2.default.createElement(_MsgListContainer2.default, null));
+_Boot2.default.renderReactFor(".js-MsgList", _react2.default.createElement(_MsgListContainer2.default, null));
 
 /***/ })
 ],[361]);

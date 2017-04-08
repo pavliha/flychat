@@ -18,17 +18,8 @@ use Illuminate\Http\Request;
 
 
 Route::get("/","IndexController@index");
+Route::resource("/home","HomeController");
+
 Auth::routes();
 
 Route::get('/api/messages', 'MessageController@allMessages');
-
-//Route::post("/api/task/assign", function (Request $request) {
-//    $task = Task::find($request->task);
-//
-//    if (is_numeric($request->user)) {
-//        $task->users()->detach($request->user);
-//    }else{
-//        $user = User::where("name" ,$request->user)->get()[0];
-//        $task->users()->attach($user->id);
-//    }
-//});
