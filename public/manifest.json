@@ -1,0 +1,10 @@
+{
+  "index.css": "styles/main.css",
+  "index.css.map": "styles/main.css.map",
+  "index.js": "js/index.js",
+  "index.js.map": "js/index.js.map",
+  "react.js": "js/react.js",
+  "react.js.map": "js/react.js.map",
+  "reactDOM.js": "js/reactDOM.js",
+  "reactDOM.js.map": "js/reactDOM.js.map"
+}
