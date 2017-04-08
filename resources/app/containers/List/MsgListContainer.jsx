@@ -2,6 +2,8 @@ import React from "react";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import msg from "../../actions/msg"
+import randomColor from 'randomcolor'
+
 @connect(store => {
     return {
         msg: store.msg
@@ -14,35 +16,37 @@ import msg from "../../actions/msg"
 class MsgListContainer extends React.Component {
 
     componentWillMount() {
-
-        window.echo.channel("msg").listen("MessageSend",e=>{
-            this.props.msgAction.get()
-        })
-
         this.props.msgAction.get()
-
-
     }
 
     render() {
-
         if (this.props.fetching)
             return <div>Loading...</div>
+        if (!this.props.msg.completed)
+            return <div>Ошибка</div>
 
         const items = this.props.msg.data;
 
-        return <div>
-            {items.map((item) => {
+        if(items === "success"){
+            return false
+        }
 
-                return <div className="row no-gutters msg" key={item.id}>
-                    <div className="col">
-                        <div className="msg-col msg__username">{item.user.name}</div>
-                        <div className="msg-col">{item.message}</div>
+        return <div>
+                {items.map((item) => {
+                    return <div className="row no-gutters msg" key={item.id}>
+                        <div className="col">
+                            <div className="msg-col msg__username">
+                                <div className="msg__avatar" style={{background:randomColor({luminosity:'dark'})}}>
+                                    {item.user.name.charAt(0)}
+                                </div>
+                                <div>{item.user.name}</div>
+                            </div>
+                            <div className="msg-col">{item.message}</div>
+                        </div>
+                        <div className="msg__time">14:52</div>
                     </div>
-                    <div className="msg__time">{item.created_at}</div>
-                </div>
-            })}
-        </div>
+                })}
+            </div>
     }
 }
 MsgListContainer.propTypes = {}

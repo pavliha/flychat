@@ -30,38 +30,6 @@
 </head>
 <body>
 <div id="app">
-    <!--nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="/">Fly Chat</a>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    @if (Auth::guest())
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">Register</a>
-                        </li>
-                    @else
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://example.com"
-                               data-toggle="dropdown">{{ Auth::user()->name }} <span class="caret"></span></a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/logout">Logout</a>
-                            </div>
-                        </li>
-                    @endif
-                </ul>
-            </div>
-        </div>
-    </nav-->
-
-
     @yield('content')
 </div>
 
