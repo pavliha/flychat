@@ -81,6 +81,9 @@
 <script src="{{asset($asset["index.js"])}}"></script>
 <!--suppress JSUnresolvedLibraryURL -->
 <script src="http://localhost:35729/livereload.js"></script>
+<script>
+    navigator.serviceWorker.register('sw.js');
+</script>
 @yield("js")
 </body>
 </html>

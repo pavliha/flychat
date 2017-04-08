@@ -6,5 +6,25 @@
   "react.js": "js/react.js",
   "react.js.map": "js/react.js.map",
   "reactDOM.js": "js/reactDOM.js",
-  "reactDOM.js.map": "js/reactDOM.js.map"
+  "reactDOM.js.map": "js/reactDOM.js.map",
+
+
+  "name": "Flychat",
+  "short_name": "Flychat",
+  "icons": [
+    {
+      "src": "images/icons/android-chrome-192×192.png",
+      "sizes": "192×192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/android-chrome-512×512.png",
+      "sizes": "512×512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
 }
