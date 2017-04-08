@@ -7,14 +7,10 @@ import Echo from "laravel-echo"
 
 window.Pusher = require("pusher-js")
 require("styles/main.styl")
-
-console.log(window.Laravel.PUSHER_KEY)
 window.Echo = Echo
 window.echo = new Echo({
-    broadcaster: 'pusher',
-    key: window.Laravel.PUSHER_KEY,
-    cluster: 'eu',
-    encrypted: true
+    broadcaster: 'socket.io',
+    host: window.location.hostname + ':6001'
 });
 
 Boot.renderReactFor(".js-MsgList", <MsgList/>)

@@ -20,8 +20,8 @@ class MessageController extends Controller
             "message" => $request->input("message"),
             "user_id"=>\Auth::id()
         ]);
-        broadcast(new MessageSend($msg));
-
-        return "message send";
+         broadcast(new MessageSend($msg));
+//        return $msg->with('user')->get();
+        return [];
     }
 }

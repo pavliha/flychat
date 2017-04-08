@@ -16,9 +16,10 @@ class MsgListContainer extends React.Component {
     componentWillMount() {
 
         window.echo.channel("msg").listen("MessageSend",e=>{
-            console.log(e)
             this.props.msgAction.get()
         })
+
+        this.props.msgAction.get()
 
 
     }
@@ -30,10 +31,6 @@ class MsgListContainer extends React.Component {
 
         const items = this.props.msg.data;
 
-        if(items === "success"){
-            return false
-        }
-
         return <div>
             {items.map((item) => {
 
@@ -42,7 +39,7 @@ class MsgListContainer extends React.Component {
                         <div className="msg-col msg__username">{item.user.name}</div>
                         <div className="msg-col">{item.message}</div>
                     </div>
-                    <div className="msg__time">14:52</div>
+                    <div className="msg__time">{item.created_at}</div>
                 </div>
             })}
         </div>

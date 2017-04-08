@@ -1446,24 +1446,15 @@ exports.default = {
     },
     add: function add(form) {
 
-        return function (dispatch) {
-            dispatch({
-                type: _types2.default.ADD_MSG + "_PENDING"
-            });
-            _axios2.default.post("/api/messages", new FormData(form)).then(function (response) {
-                dispatch({
-                    type: _types2.default.ADD_MSG + "_FULFILLED",
-                    payload: response
-                });
-            }).catch(function (e) {
-                dispatch({
-                    type: _types2.default.ADD_MSG + "_REJECTED"
-                });
-            });
-        };
         return {
             type: _types2.default.ADD_MSG,
             payload: _axios2.default.post("/api/messages", new FormData(form))
+        };
+    },
+    addMsg: function addMsg(msg) {
+        return {
+            type: _types2.default.ADD_NEW_MSG,
+            payload: msg
         };
     }
 };
@@ -1485,7 +1476,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var types = {
     GET_MSG: "GET_MSG",
-    ADD_MSG: "ADD_MSG"
+    ADD_MSG: "ADD_MSG",
+    ADD_NEW_MSG: "ADD_NEW_MSG"
 };
 exports.default = types;
 
@@ -3053,7 +3045,6 @@ var AddMsgContainer = (_dec = (0, _reactRedux.connect)(function (store) {
         value: function sendMsg(e) {
             e.preventDefault();
             this.props.msgAction.add(e.target.form);
-            if (this.props.msg.fetching) this.props.msgAction.get();
         }
     }, {
         key: "sendMsgViaEnter",
@@ -3061,7 +3052,6 @@ var AddMsgContainer = (_dec = (0, _reactRedux.connect)(function (store) {
             if (e.keyCode) {
                 e.preventDefault();
                 this.props.msgAction.add(e.target.form);
-                if (!this.props.msg.fetching) this.props.msgAction.get();
             }
         }
     }]);
@@ -3145,9 +3135,10 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
             var _this2 = this;
 
             window.echo.channel("msg").listen("MessageSend", function (e) {
-                console.log(e);
                 _this2.props.msgAction.get();
             });
+
+            this.props.msgAction.get();
         }
     }, {
         key: "render",
@@ -3160,10 +3151,6 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
             );
 
             var items = this.props.msg.data;
-
-            if (items === "success") {
-                return false;
-            }
 
             return _react2.default.createElement(
                 "div",
@@ -3190,7 +3177,7 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
                         _react2.default.createElement(
                             "div",
                             { className: "msg__time" },
-                            "14:52"
+                            item.created_at
                         )
                     );
                 })
@@ -9160,7 +9147,6 @@ exports.default = function () {
 
         case _types2.default.ADD_MSG + "_FULFILLED":
             return (0, _extends3.default)({}, state, {
-                data: action.payload.data,
                 completed: true
             });
 
@@ -13424,14 +13410,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 window.Pusher = __webpack_require__(/*! pusher-js */ 158);
 __webpack_require__(/*! styles/main.styl */ 156);
-
-console.log(window.Laravel.PUSHER_KEY);
 window.Echo = _laravelEcho2.default;
 window.echo = new _laravelEcho2.default({
-    broadcaster: 'pusher',
-    key: window.Laravel.PUSHER_KEY,
-    cluster: 'eu',
-    encrypted: true
+    broadcaster: 'socket.io',
+    host: window.location.hostname + ':6001'
 });
 
 _Boot2.default.renderReactFor(".js-MsgList", _react2.default.createElement(_MsgListContainer2.default, null));

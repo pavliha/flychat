@@ -30,8 +30,6 @@ class AddMsgContainer extends React.Component {
     sendMsg(e) {
         e.preventDefault()
         this.props.msgAction.add(e.target.form)
-        if (this.props.msg.fetching)
-            this.props.msgAction.get()
 
     }
 
@@ -39,8 +37,6 @@ class AddMsgContainer extends React.Component {
         if (e.keyCode) {
             e.preventDefault()
             this.props.msgAction.add(e.target.form)
-            if (!this.props.msg.fetching)
-                this.props.msgAction.get()
 
         }
 
