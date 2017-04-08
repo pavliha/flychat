@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div clas="container-fluid">
+<div>
     <div class="row no-gutters">
         <div class="col-md-2 user-list-wrapper">
             <ul class="user-list">
+                <li class="user-list__logged">
+                    <div>Alex</div>
+                    <a class="btn btn-sm" href="/logout">Выйти</a>
+                </li>
                 <li class="user-list__header">Users online</li>
                 <li class="user-list__item">
                     <a href="#" class="user-list__user">Petya Vasichkin</a>

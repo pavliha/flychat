@@ -15,6 +15,10 @@
 
 }
 
+.user-list__logged div {
+  flex: 1;
+}
+
 .user-list__user {
   color: #fff;
   text-decoration: none;
@@ -35,7 +39,21 @@
 }
 
 .user-list__header {
-  color: #E0F2F1;
+  color: #757575;
   display: block;
   padding: 36px 24px 24px 24px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.user-list__logged {
+  display: flex;
+  color: #fff;
+  padding: 36px 24px 24px 24px;
+}
+
+.user-list__logged .btn {
+  background: none;
+  border: 1px solid #ccc;
+  color: #ccc;
 }

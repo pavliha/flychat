@@ -17,8 +17,9 @@
     "vue": "^2.1.10"
   },
   "dependencies": {
+    "randomcolor": "^0.4.4",
+    "react": "latest",
     "react-redux": "latest",
-    "redux": "latest",
-    "react": "latest"
+    "redux": "latest"
   }
 }

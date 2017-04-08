@@ -16,10 +16,12 @@ use App\User;
 use Illuminate\Http\Request;
 
 
+Auth::routes();
+
+Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::get("/","IndexController@index");
 Route::resource("/home","HomeController");
 
-Auth::routes();
 
 Route::get('/api/messages', 'MessageController@allMessages');

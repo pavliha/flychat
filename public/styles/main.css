@@ -99,10 +99,28 @@
 }
 .msg__username {
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .msg__time {
   font-style: italic;
   padding: 0 28px;
+}
+.msg__avatar {
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  background: #008000;
+  color: #fff;
+  border-radius: 100%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-right: 8px;
 }
 .user-list-wrapper {
   display: -webkit-box;
@@ -115,6 +133,11 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.user-list__logged div {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -136,9 +159,23 @@
   text-decoration: none;
 }
 .user-list__header {
-  color: #e0f2f1;
+  color: #757575;
   display: block;
   padding: 36px 24px 24px 24px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+.user-list__logged {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  padding: 36px 24px 24px 24px;
+}
+.user-list__logged .btn {
+  background: none;
+  border: 1px solid #ccc;
+  color: #ccc;
 }
 .bg-home {
   background-size: 100%;
@@ -155,6 +192,39 @@
 }
 .page-padding {
   padding-top: 32px;
+}
+.landing {
+  background: url("/images/bg.jpg");
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh;
+  width: 100vw;
+}
+.landing img {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 32px;
+}
+.landing a {
+  border-bottom: 1px dashed #00695c;
+  color: #00695c;
+  margin: 0 8px;
+  line-height: 2rem;
+  border-radius: 2px;
+  display: inline-block;
+}
+.landing a:hover {
+  margin: 0;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #e0f2f1;
+  border: none;
+  background: #00695c;
+}
+.landing-box {
+  background: #fff;
+  padding: 32px 0;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
 }
 ::-webkit-scrollbar {
   width: 8px;
