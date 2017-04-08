@@ -1,6 +1,5 @@
 const types = {
-    GET_TASKS: "GET_TASKS",
-    ADD_TASK: "ADD_TASK",
-    DELETE_TASK:"DELETE_TASK",
+    GET_MSG: "GET_MSG",
+    ADD_MSG: "ADD_MSG",
 }
 export default types
