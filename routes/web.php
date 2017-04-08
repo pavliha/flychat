@@ -16,6 +16,8 @@ use App\User;
 use Illuminate\Http\Request;
 
 
+
+Route::get("/","IndexController@index");
 Auth::routes();
 
 Route::get('/api/messages', 'MessageController@allMessages');
