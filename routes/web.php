@@ -22,4 +22,5 @@ Route::resource("/home","HomeController");
 
 Auth::routes();
 
-Route::get('/api/messages', 'MessageController@allMessages');
+Route::get('/api/messages', 'MessageController@index');
+Route::post('/api/messages', 'MessageController@store');

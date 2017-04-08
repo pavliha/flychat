@@ -20,6 +20,7 @@
     <script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
+            'PUSHER_KEY' => env('PUSHER_APP_KEY','f07415a3f78444a23bc2')
         ]) !!};
     </script>
     <link rel="stylesheet" href="/{{$asset["index.css"]}}" type="text/css">
@@ -91,6 +92,7 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.2.min.js" crossorigin="anonymous"></script>
 <script src="{{asset($asset["reactDOM.js"])}}"></script>
 <script src="{{asset($asset["react.js"])}}"></script>

@@ -2,7 +2,6 @@ import React from "react";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import msg from "../../actions/msg"
-
 @connect(store => {
     return {
         msg: store.msg
@@ -15,14 +14,15 @@ import msg from "../../actions/msg"
 class MsgListContainer extends React.Component {
 
     componentWillMount() {
+
         this.props.msgAction.get()
+
     }
 
     render() {
+
         if (this.props.fetching)
             return <div>Loading...</div>
-        if (!this.props.msg.completed)
-            return <div>Ошибка</div>
 
         const items = this.props.msg.data;
 
@@ -34,11 +34,9 @@ class MsgListContainer extends React.Component {
             <table className="table">
                 <tbody>
                 {items.map((item) => {
-                    console.log(item)
-
                     return <tr key={item.id}>
-                        <td>{item.user.name}</td>
                         <td>{item.message}</td>
+                        <td>{item.user.names}</td>
                     </tr>
                 })}
                 </tbody>

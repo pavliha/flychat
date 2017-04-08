@@ -9,6 +9,7 @@
 
                 <div class="panel-body">
                     <div class="js-MsgList"></div>
+                    <div class="js-AddMsg"></div>
                 </div>
             </div>
         </div>

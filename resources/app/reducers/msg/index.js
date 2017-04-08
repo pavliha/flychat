@@ -29,6 +29,25 @@ export default (state = initial, action) => {
                 ...state,
                 error:true
             }
+
+        case types.ADD_MSG+"_PENDING":
+            return {
+                ...state,
+                fetching: true,
+            }
+
+        case types.ADD_MSG+"_FULFILLED":
+            return {
+                ...state,
+                data:action.payload.data,
+                completed:true,
+            }
+
+        case types.ADD_MSG+"_REJECTED":
+            return {
+                ...state,
+                error:true
+            }
         default:
             return state
     }
