@@ -14,17 +14,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link href="{{ asset('styles/main.css') }}" rel="stylesheet">
-    <script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
 
     <!-- Scripts -->
     <script>
@@ -75,12 +67,16 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="https://code.jquery.com/jquery-2.2.2.min.js" crossorigin="anonymous"></script>
+<script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 <script src="{{asset($asset["reactDOM.js"])}}"></script>
 <script src="{{asset($asset["react.js"])}}"></script>
 <script src="{{asset($asset["index.js"])}}"></script>
 <!--suppress JSUnresolvedLibraryURL -->
 <script src="http://localhost:35729/livereload.js"></script>
+
 <script>
     navigator.serviceWorker.register('sw.js');
 </script>
