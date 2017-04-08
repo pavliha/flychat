@@ -15,9 +15,6 @@ use App\Task;
 use App\User;
 use Illuminate\Http\Request;
 
-Route::get('/', function () {
-    return redirect("/tasks");
-});
 
 Auth::routes();
 
