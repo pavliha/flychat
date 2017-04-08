@@ -42,19 +42,5 @@ class User extends Authenticatable
         'remember_token',
     ];
 
-    public function tasks() {
-        return $this->belongsToMany(Task::class);
-    }
-
-    public function roles() {
-        return $this->belongsToMany(Role::class);
-    }
-
-    public function hasRole($roleName) {
-        foreach ($this->roles()->get() as $role)
-            if ($role->name == $roleName) return true;
-
-        return false;
-    }
 
 }
