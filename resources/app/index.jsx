@@ -5,6 +5,6 @@ import MsgList from "./containers/List/MsgListContainer"
 require("styles/main.styl")
 
 
-Boot.renderReactFor(".js-TaskList", <MsgList/>)
+Boot.renderReactFor(".js-MsgList", <MsgList/>)
 
 
