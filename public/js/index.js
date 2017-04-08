@@ -1347,7 +1347,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var types = {
     GET_MSG: "GET_MSG",
-    ADD_MSG: "ADD_MSG"
+    ADD_MSG: "ADD_MSG",
+    ADD_NEW_MSG: "ADD_NEW_MSG"
 };
 exports.default = types;
 
