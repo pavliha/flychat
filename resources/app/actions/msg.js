@@ -5,7 +5,7 @@ export default {
     get(){
         return {
             type: types.GET_MSG,
-            payload: axios.get("/api/msg")
+            payload: axios.get("/api/messages")
         }
     },
 }

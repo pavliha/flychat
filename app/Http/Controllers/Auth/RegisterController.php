@@ -66,21 +66,6 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
         ]);
 
-        $roleId = 0;
-        switch ($data["role"]) {
-            case "admin":
-                $roleId = 1;
-                break;
-            case "teamlead":
-                $roleId = 2;
-                break;
-            case "perfomer":
-                $roleId = 3;
-                break;
-
-        }
-        $user->roles()->attach($roleId);
-
         return $user;
     }
 }

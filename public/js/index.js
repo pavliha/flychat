@@ -3813,7 +3813,7 @@ exports.default = {
     get: function get() {
         return {
             type: _types2.default.GET_MSG,
-            payload: _axios2.default.get("/api/msg")
+            payload: _axios2.default.get("/api/messages")
         };
     }
 };
