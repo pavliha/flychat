@@ -2915,33 +2915,32 @@ var MsgListContainer = (_dec = (0, _reactRedux.connect)(function (store) {
 
             return _react2.default.createElement(
                 "div",
-                { className: "panel" },
-                _react2.default.createElement(
-                    "table",
-                    { className: "table" },
-                    _react2.default.createElement(
-                        "tbody",
-                        null,
-                        items.map(function (item) {
-                            console.log(item);
-
-                            return _react2.default.createElement(
-                                "tr",
-                                { key: item.id },
-                                _react2.default.createElement(
-                                    "td",
-                                    null,
-                                    item.user.name
-                                ),
-                                _react2.default.createElement(
-                                    "td",
-                                    null,
-                                    item.message
-                                )
-                            );
-                        })
-                    )
-                )
+                null,
+                items.map(function (item) {
+                    return _react2.default.createElement(
+                        "div",
+                        { className: "row no-gutters msg", key: item.id },
+                        _react2.default.createElement(
+                            "div",
+                            { className: "col" },
+                            _react2.default.createElement(
+                                "div",
+                                { className: "msg-col msg__username" },
+                                item.user.name
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { className: "msg-col" },
+                                item.message
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "msg__time" },
+                            "14:52"
+                        )
+                    );
+                })
             );
         }
     }]);

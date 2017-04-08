@@ -30,21 +30,17 @@ class MsgListContainer extends React.Component {
             return false
         }
 
-        return <div className="panel">
-            <table className="table">
-                <tbody>
+        return <div>
                 {items.map((item) => {
-                    console.log(item)
-
-                    return <tr key={item.id}>
-                        <td>{item.user.name}</td>
-                        <td>{item.message}</td>
-                    </tr>
+                    return <div className="row no-gutters msg" key={item.id}>
+                        <div className="col">
+                            <div className="msg-col msg__username">{item.user.name}</div>
+                            <div className="msg-col">{item.message}</div>
+                        </div>
+                        <div className="msg__time">14:52</div>
+                    </div>
                 })}
-                </tbody>
-            </table>
-        </div>
-
+            </div>
     }
 }
 MsgListContainer.propTypes = {}
