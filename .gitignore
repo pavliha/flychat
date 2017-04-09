@@ -9,5 +9,5 @@
 Homestead.json
 Homestead.yaml
 .env
-public/js/
+public/js
 .gitignore
