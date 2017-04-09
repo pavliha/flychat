@@ -18,8 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->boolean('online');
-            $table->timestamp('online')->nullable();
+            $table->boolean('online')->default(0);
+            $table->timestamp('last_online')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

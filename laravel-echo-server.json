@@ -14,6 +14,7 @@
 	"port": "6001",
 	"protocol": "https",
 	"socketio": {},
-	"sslCertPath": "/etc/nginx/ssl/flychat.dev.srt",
-	"sslKeyPath": "/etc/nginx/ssl/flychat.dev.key"
+
+	"sslCertPath": "/etc/nginx/ssl/bootdrugs.app.crt",
+	"sslKeyPath": "/etc/nginx/ssl/bootdrugs.app.key"
 }
