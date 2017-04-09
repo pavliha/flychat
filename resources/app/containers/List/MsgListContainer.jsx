@@ -16,37 +16,40 @@ import randomColor from 'randomcolor'
 class MsgListContainer extends React.Component {
 
     componentWillMount() {
+
+        if (io) {
+            window.echo.channel("msg").listen("MessageSend", e => {
+                this.props.msgAction.get()
+                window.scrollTo(0, document.body.scrollHeight);
+
+            })
+        }
         this.props.msgAction.get()
+
     }
 
     render() {
         if (this.props.fetching)
             return <div>Loading...</div>
-        if (!this.props.msg.completed)
-            return <div>Ошибка</div>
 
         const items = this.props.msg.data;
 
-        if(items === "success"){
-            return false
-        }
-
         return <div>
-                {items.map((item) => {
-                    return <div className="row no-gutters msg" key={item.id}>
-                        <div className="col">
-                            <div className="msg-col msg__username">
-                                <div className="msg__avatar" style={{background:randomColor({luminosity:'dark'})}}>
-                                    {item.user.name.charAt(0)}
-                                </div>
-                                <div>{item.user.name}</div>
+            {items.map((item) => {
+                return <div className="row no-gutters msg" key={item.id}>
+                    <div className="col">
+                        <div className="msg-col msg__username">
+                            <div className="msg__avatar" style={{background: randomColor({luminosity: 'dark'})}}>
+                                {item.user.name.charAt(0)}
                             </div>
-                            <div className="msg-col">{item.message}</div>
+                            <div>{item.user.name}</div>
                         </div>
-                        <div className="msg__time">14:52</div>
+                        <div className="msg-col">{item.message}</div>
                     </div>
-                })}
-            </div>
+                    <div className="msg__time">{item.created_at}</div>
+                </div>
+            })}
+        </div>
     }
 }
 MsgListContainer.propTypes = {}
