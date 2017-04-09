@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-@php $asset = json_decode(File::get(public_path("manifest.json")),true) @endphp
+@php $asset = json_decode(File::get(public_path("app-manifest.json")),true) @endphp
 
 <html lang="{{ config('app.locale') }}">
 <head>
