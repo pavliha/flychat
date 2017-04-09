@@ -175,11 +175,15 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  max-width: 100%;
 }
 .user-list__logged div {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .user-list__user {
   color: #fff;
@@ -187,6 +191,9 @@
   line-height: 2rem;
   display: block;
   padding: 0 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .user-list__user:hover {
   background: #00695c;
@@ -215,6 +222,7 @@
   background: none;
   border: 1px solid #ccc;
   color: #ccc;
+  margin-left: 8px;
 }
 .bg-home {
   background-size: 100%;
@@ -321,6 +329,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+  border-top: 1px solid rgba(204,204,204,0.5);
 }
 .layout-sendform input {
   -webkit-box-flex: 1;
