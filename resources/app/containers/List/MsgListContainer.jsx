@@ -16,14 +16,19 @@ import randomColor from 'randomcolor'
 class MsgListContainer extends React.Component {
 
     componentWillMount() {
+        try{
+            if (io) {
+                window.echo.channel("msg").listen("MessageSend", e => {
+                    this.props.msgAction.get()
+                    window.scrollTo(0, document.body.scrollHeight);
 
-        if (io) {
-            window.echo.channel("msg").listen("MessageSend", e => {
-                this.props.msgAction.get()
-                window.scrollTo(0, document.body.scrollHeight);
-
-            })
+                })
+            }
+        }catch (e){
+            console.warn("Socket does not work",e)
         }
+
+
         this.props.msgAction.get()
 
     }
