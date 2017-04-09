@@ -29,7 +29,7 @@
     @yield("css")
 </head>
 <body>
-<div id="app">
+<div id="app" class="helper-grow">
     @yield('content')
 </div>
 
