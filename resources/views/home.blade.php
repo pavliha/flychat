@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="helper-grow">
-    <div class="row no-gutters" style="flex: 1;">
-        <div class="col-md-3 col-lg-2 user-list-wrapper">
+<div>
+    <div class="row no-gutters">
+        <div class="col-md-2 user-list-wrapper">
             <ul class="user-list">
                 <li class="user-list__logged">
                     <div>Alex</div>
@@ -15,9 +15,8 @@
                 </li>
             </ul>
         </div>
-        <div class="user-list-toggle" onClick="$('.user-list-wrapper').toggleClass('active');">USERS<br>ONLINE</div>
-        <div class="col-md-9 col-lg-10">
-            <div class="layout-right helper-grow">
+        <div class="col-md-10">
+            <div class="layout-right">
                 <div class="layout-messages">
                     <div style="max-width: 680px; margin: 0 auto;">
                         <div class="js-MsgList"></div>
