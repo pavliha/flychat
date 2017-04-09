@@ -31,6 +31,7 @@ class AddMsgContainer extends React.Component {
         e.preventDefault()
         this.props.msgAction.add(e.target.form)
         this.props.msgAction.get()
+        window.s
     }
 
     sendMsgViaEnter(e) {

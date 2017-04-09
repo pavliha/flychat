@@ -14,7 +14,6 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
     '/',
-    'https://flychat.dev:6001/socket.io/socket.io.js',
     '/js/react.js',
     '/js/reactDOM.js',
     '/js/app.js',
