@@ -4,9 +4,9 @@ webpackJsonp_name_([1],{
 /***/ 13:
 /* unknown exports provided */
 /* all exports used */
-/*!*****************************************************!*\
-  !*** C:/xampp/htdocs/boot/flychat/~/react/react.js ***!
-  \*****************************************************/
+/*!*************************************************!*\
+  !*** /home/pavel/Code/flychat/~/react/react.js ***!
+  \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

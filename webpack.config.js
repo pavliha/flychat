@@ -22,7 +22,7 @@ module.exports = {
     },
     devtool: 'source-map',
     resolve: {
-        alias:{
+        alias: {
             styles: path.resolve("resources/styles"),
             components: path.resolve("resources/app/components"),
             containers: path.resolve("resources/app/containers"),
@@ -80,17 +80,17 @@ module.exports = {
             {
                 test: /.*\.(gif|png|jpe?g|svg)$/i,
                 loaders: ['file-loader', {
-                        loader: 'image-webpack-loader',
-                        query: {
-                            progressive: true,
-                            optimizationLevel: 7,
-                            interlaced: false,
-                            pngquant: {
-                                quality: '65-90',
-                                speed: 4
-                            }
+                    loader: 'image-webpack-loader',
+                    query: {
+                        progressive: true,
+                        optimizationLevel: 7,
+                        interlaced: false,
+                        pngquant: {
+                            quality: '65-90',
+                            speed: 4
                         }
                     }
+                }
                 ]
             }
 
@@ -109,7 +109,7 @@ module.exports = {
         //     comments: false,
         //     sourceMap: false
         // }),
-        new ManifestPlugin(),
+        new ManifestPlugin({fileName: 'app-manifest.json'}),
         new ExtractTextPlugin({filename: 'styles/main.css', disable: false, allChunks: true}),
         new webpack.LoaderOptionsPlugin({
             options: {stylus: {use: [poststylus(['autoprefixer', 'rucksack-css', 'postcss-reporter'])]}}
